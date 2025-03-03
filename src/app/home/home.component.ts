@@ -9,4 +9,20 @@ import { fadeInAnimation } from 'src/assets/animations/animations';
 })
 export class HomeComponent {
 
+  intro = 'hi, i\'m ethan phan';
+  displayed = '';
+  index = 0;
+
+  ngOnInit() {
+    this.typeText();
+  }
+
+  typeText() {
+    if (this.index < this.intro.length) {
+      this.displayed += this.intro.charAt(this.index);
+      this.index++;
+      setTimeout(() => this.typeText(), 150);
+    }
+  }
+
 }

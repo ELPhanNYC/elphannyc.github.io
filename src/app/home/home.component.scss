@@ -21,6 +21,17 @@ p {
     align-items: center;
 }
 
+.cursor {
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    50% {
+      opacity: 0;
+    }
+  }
+  
+
 
 // Setup for enabling responsiveness
 @media (max-width: 480px) {
