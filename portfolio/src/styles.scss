@@ -1,1 +1,50 @@
-/* You can add global styles to this file, and also import other style files */
+@font-face {
+    font-family: 'Source Code Pro';
+    src: url('assets/fonts/Source_Code_Pro/SourceCodePro-VariableFont_wght.ttf');
+}
+
+@font-face {
+    font-family: 'Jua';
+    src: url('assets/fonts/Jua/Jua-Regular.ttf');
+}
+
+@font-face {
+    font-family: 'Ubuntu Sans';
+    src: url('assets/fonts/Ubuntu_Sans/UbuntuSans-VariableFont_wdth,wght.ttf');
+}
+
+:root {
+    --primary-color: white;
+    --secondary-color: #E2E2B6;
+    --tertiary-color: #6EACDA;
+    --quaternary-color: #03346E;
+    --bg-color: #021526;
+
+}
+
+body {
+    font-family: 'Ubuntu Sans';
+    margin-left: 25%;
+    margin-right: 25%;
+    margin-top: 3rem;
+    background-color: var(--bg-color);
+    color: var(--primary-color);
+}
+
+// Setup for enabling responsiveness
+@media (max-width: 768px) {
+    body {
+        margin-left: 15%;
+        margin-right: 15%;
+        margin-top: 2rem;
+    }
+    
+}
+
+@media (max-width: 480px) {
+    body {
+        margin-left: 1rem;
+        margin-right:1rem;
+        margin-top: 1rem;
+    }
+}
