@@ -4,22 +4,20 @@
 }
 
 // Old Color Palette
-:root {
-    --background-color: #F3F7EC;
-    --text: #000000;
-    --inverse-text: #FFFFFF;
-    --section-text: #0A6847;
-    --accent: #005C78;
-}
+// :root {
+//     --background-color: #F3F7EC;
+//     --text: #000000;
+//     --section-text: #0A6847;
+//     --accent: #005C78;
+// }
 
 // New Color Palette
-// :root {
-//     --background-color: #021526;
-//     --text: #FFFFFF;
-//     --inverse-text: #000000;
-//     --section-text: #E2E2B6;
-//     --accent: #6EACDA;
-// }
+:root {
+    --background-color: #021526;
+    --text: #FFFFFF;
+    --section-text: #E2E2B6;
+    --accent: #6EACDA;
+}
 
 body {
     font-family: 'Ubuntu-Regular';
