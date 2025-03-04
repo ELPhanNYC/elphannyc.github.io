@@ -1,5 +1,5 @@
 h4 {
-    color: #006989;
+    color: var(--section-text);
 }
 
 .ec {
@@ -11,7 +11,7 @@ p {
 }
 
 .details-1 {
-    color: #005C78;
+    color: var(--accent);
     font-size: 0.8rem;
 }
 
@@ -21,9 +21,9 @@ p {
 }
 
 a {
-    color: black;
+    color: var(--text);
     text-decoration: none;
 }
 a:hover {
-    color: #0A6847;
+    color: var(--section-text);
 }

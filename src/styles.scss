@@ -3,20 +3,31 @@
     src: url('assets/font/Ubuntu/Ubuntu-Regular.ttf');
 }
 
+// Old Color Palette
+:root {
+    --background-color: #F3F7EC;
+    --text: #000000;
+    --inverse-text: #FFFFFF;
+    --section-text: #0A6847;
+    --accent: #005C78;
+}
+
+// New Color Palette
+// :root {
+//     --background-color: #021526;
+//     --text: #FFFFFF;
+//     --inverse-text: #000000;
+//     --section-text: #E2E2B6;
+//     --accent: #6EACDA;
+// }
+
 body {
     font-family: 'Ubuntu-Regular';
     margin-left: 25%;
     margin-right: 25%;
     margin-top: 3rem;
-
-    /*
-    Pallete: 
-    Green - 0A6847, 
-    Cream - F3F7EC, 
-    Lighter Blue - 006989, 
-    Darker Blue - 005C78
-    */
-    background-color: #F3F7EC;
+    color: var(--text);
+    background-color: var(--background-color);
 }
 
 // Setup for enabling responsiveness

@@ -1,13 +1,13 @@
 .name {
-    color: #0A6847;
+    color: var(--section-text);
 }
 
 p {
     margin-top: 2rem;
 }
 
-.blue {
-    color: #005C78;
+.accent {
+    color: var(--accent);
 }
 
 .collage-image {
