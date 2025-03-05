@@ -1,0 +1,43 @@
+.toggle-button {
+    position: fixed;
+    z-index: 1000;
+    bottom: 2rem;
+    right: 2rem;
+    height: 2rem;
+    width: 2rem;
+    border: solid 2px var(--accent);
+    border-radius: 50%;
+    background: var(--background-color);
+    display: grid;
+    place-items: center;
+    cursor: pointer;
+    box-shadow: 0px 4px 4px var(--shadow);
+}
+
+.toggle-button:hover {
+    opacity: 75%;
+}
+
+svg {
+    transition: transform 0.3s ease-in-out;
+}
+
+.cls-1{
+    fill:none;
+    stroke: #FFB22C;
+    stroke-miterlimit:10;
+    stroke-width:1.91px;
+}
+
+.rotated {
+    transform: rotate(180deg);
+}
+
+@media (max-width: 480px) {
+    .toggle-button {
+        bottom: 1rem;
+        right: 1rem;
+    }
+}
+
+

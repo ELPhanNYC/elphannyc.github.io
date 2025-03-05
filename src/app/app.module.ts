@@ -19,6 +19,7 @@ import { WorkComponent } from './work/work.component';
 import { ProjectsComponent } from './projects/projects.component';
 import { ExtracurricularComponent } from './extracurricular/extracurricular.component';
 import { EducationComponent } from './education/education.component';
+import { ThemeToggleComponent } from './theme-toggle/theme-toggle.component';
 
 @NgModule({
   declarations: [
@@ -31,6 +32,7 @@ import { EducationComponent } from './education/education.component';
     ProjectsComponent,
     ExtracurricularComponent,
     EducationComponent,
+    ThemeToggleComponent,
   ],
   imports: [
     BrowserModule,

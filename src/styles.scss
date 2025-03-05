@@ -4,19 +4,21 @@
 }
 
 // Old Color Palette
-// :root {
-//     --background-color: #F3F7EC;
-//     --text: #000000;
-//     --section-text: #0A6847;
-//     --accent: #005C78;
-// }
+:root {
+    --background-color: #F3F7EC;
+    --text: #000000;
+    --section-text: #0A6847;
+    --accent: #005C78;
+    --shadow: rgb(0, 92, 120, 0.5);
+}
 
 // New Color Palette
-:root {
+.dark-theme {
     --background-color: #021526;
     --text: #FFFFFF;
     --section-text: #E2E2B6;
     --accent: #6EACDA;
+    --shadow: rgb(110, 172, 218, 0.5);
 }
 
 body {
