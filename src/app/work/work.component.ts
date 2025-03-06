@@ -7,9 +7,10 @@ import { Component } from '@angular/core';
 })
 export class WorkComponent {
   positions = [
+    {title:"technical support programmer @ digital provisions", detail1:"winter 2025 - present | ronkonkoma, ny | html, tailwind css, jquery, php, mysql, apache", detail2:"design and develop new features (eg. qr code ticketing) for digital provisions' internal site mapping application, utilizing agile methodologies to enhance code efficiency and productivity.", links:""},
     {title:"research assistant @ northeastern university", detail1:"summer 2024 - present | remote | python, selenium, flask, mysql, google api, digital ocean", detail2:"developed a python-based scraper using selenium and google api to extract facebook data, storing it in mysql via flask endpoints for nlp analysis of misinformation.", links:"https://www.networkscienceinstitute.org/"},
     {title:"undergraduate teaching assistant @ university at buffalo", detail1:"summer 2022 - present | buffalo, ny | data structures, discrete mathematics, societal computing", detail2:"assisted three professors in teaching 400+ students in various subject areas, led recitation sessions, assessed assignments, and collaborated on class improvements.", links:""},
-    {title:"software engineering intern @ m&t bank", detail1:"summer 2023 | buffalo, ny | angular, typescript, scss, c#, .net, docker, gitlab, ci/cd pipelines", detail2:"automated docker use in gitlab ci/cd pipelines, improving .net web app performance, saving $1 million annually, and earning recognition for the project's impact.", links:"assets/MTB Dockerization.pdf"},
+    {title:"technology intern @ m&t bank", detail1:"summer 2023 | buffalo, ny | angular, typescript, scss, c#, .net, docker, gitlab, ci/cd pipelines", detail2:"automated docker use in gitlab ci/cd pipelines, improving .net web app performance, saving $1 million annually, and earning recognition for the project's impact.", links:"assets/MTB Dockerization.pdf"},
     {title:"front end developer @ bellows garden inc", detail1:"summer 2022 | southampton, ny | html, css, javascript, google app scripts", detail2:"created the company's inaugural website, employing html, css, and javascript for a refined online portfolio showcasing the company's work to clients.", links:"https://bellowsgardens.com/"}
   ]
 }
